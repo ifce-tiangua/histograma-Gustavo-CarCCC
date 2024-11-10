@@ -13,7 +13,7 @@ int main(){
     
     if(qtd == 0){
         printf("vazio");
-        return 0;
+        return 0; 
     }
 
     int **vetor = (int**)malloc(qtd * sizeof(int*));
